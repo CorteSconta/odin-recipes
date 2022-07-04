@@ -1,0 +1,64 @@
+* {
+  font-family: verdana;
+}
+
+#body {
+  background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/glass-of-ice-cooled-spritz-with-orange-slice-in-royalty-free-image-900233638-1533300393.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+.title {
+  background: linear-gradient(to right, #dd8410 50%, rgb(0, 140, 255));
+  background-size: auto 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 20%;
+  font-size: 70px;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 3%;
+  line-height: .90;
+  }
+.we {
+  margin-top: -20px;
+}
+
+.citaz.old {
+  border: 5px salmon;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 30px;
+  }
+
+.citaz {
+  text-align: right;
+  margin-right: 5%;
+  font-size: 85%;
+  }
+
+.story {
+  text-align: right;
+  margin-left: 60%;
+  margin-bottom: auto;
+}
+
+.recipe {
+  /* display: block;  */
+}
+
+.recipe
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 4px solid blue;
+  margin-right: 70%;
+ }
+ 
+.spritz {
+  height: auto;
+  width: 800px;
+} 
